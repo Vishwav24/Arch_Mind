@@ -1,0 +1,53 @@
+/* ArchMind AI Enterprise SaaS Theme Variables */
+
+:root {
+  /* Sidebar & Navigation - Deep Purple */
+  --sidebar-bg: #452080;
+  --sidebar-active: #7439D5;
+  --sidebar-hover: rgba(116, 57, 213, 0.28);
+  --sidebar-border: #3A1B6E;
+  --sidebar-text: #FFFFFF;
+  --sidebar-muted: #B8A8DC;
+
+  /* Main page background - Light lavender */
+  --page-bg: #F5F2FC;
+  --card-bg: #FFFFFF;
+  --card-border: #E8E3F3;
+
+  /* Text - Dark navy and muted slate */
+  --text-primary: #202044;
+  --text-secondary: #77758A;
+  --text-muted: #77758A;
+
+  /* Architecture & Info - Soft Blue */
+  --arch-primary: #3B82F6;
+  --arch-tint: #EFF6FF;
+  --arch-border: #BFDBFE;
+
+  /* Success indicators - Soft Green */
+  --success-primary: #10B981;
+  --success-tint: #ECFDF5;
+  --success-border: #A7F3D0;
+  --success-text: #065F46;
+
+  /* Warning & Conflict alerts - Soft Orange */
+  --conflict-primary: #F59E0B;
+  --conflict-tint: #FFFBEB;
+  --conflict-border: #FDE68A;
+  --conflict-text: #92400E;
+
+  /* Recommendation indicators - Soft Amber */
+  --recommend-primary: #D97706;
+  --recommend-tint: #FEF3C7;
+
+  /* Highlights (selected, changed, key actions) - Soft Pink / Coral */
+  --highlight-primary: #FB7185;
+  --highlight-tint: #FFE4E6;
+  --highlight-border: #FDA4AF;
+
+  /* Enterprise geometry */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius: 12px;
+}
