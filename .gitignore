@@ -1,22 +1,24 @@
-# Virtual Environment
-.venv/
-backend/.venv/
-env/
-venv/
-
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-*.pytest_cache/
-
-# Node & Frontend
+# Dependencies
 node_modules/
 frontend/node_modules/
-frontend/dist/
-.oxlintrc.json
+backend/node_modules/
 
-# Database & Logs
-backend/data/*.db
-*.log
+# Next.js build files
+.next/
+frontend/.next/
+out/
+
+# Environment files
 .env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+venv/
+.venv/
+
+# Build files
+dist/
+build/
+nil/
